@@ -1,10 +1,9 @@
 A simple floating notification for jquery
 ---
 # Simple line of code
-flyalert(title},{description},{success|warning|error},{time in second:optional});
+```flyalert(title},{description},{success|warning|error},{time in second:optional});```
 
-example : 
+### example : 
 
-flyalert("Successfuly","woaahhh you're so cool","success");
-
-flyalert("Attention","woaahhh you're so cool","warning",10);
+```flyalert("Successfuly","woaahhh you're so cool","success");``` <br/>
+```flyalert("Attention","woaahhh you're so cool","warning",10);```
