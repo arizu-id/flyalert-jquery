@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>FlyAlert 1.0 - an jquery alert</title>
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/flyalert.css">
+		<script src="assets/flyalert.js"></script>
+	</head>
+	<body>
+		<button onclick="testSuccess()">Success Button</button>
+		<button onclick="testWarning()">Warning Button</button>
+		<button onclick="testError()">Error Button</button>
+		<script>
+		function testSuccess(){
+			flyalert("Successfuly","Access permission id data has not been determined",'success');
+		}
+		function testWarning(){
+			flyalert("Atention","Access permission id data has not been determined",'warning');
+		}
+		function testError(){
+			flyalert("Error","this is error message",'danger');
+		}
+		</script>
+	</body>
+</html>
